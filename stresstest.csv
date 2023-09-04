@@ -1,0 +1,7 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Thread Group:GET Listing all resources,2372,8116,0,67409,15929.77,70.320%,30.72698,854.33,3.96,28471.0
+Thread Group:POST Creating a resource,2116,9153,0,67430,9617.15,78.733%,21.99424,24.23,5.41,1128.3
+Thread Group:PUT Updating a resource,1853,221,0,3836,90.60,5.289%,31.17901,30.09,7.58,988.3
+Thread Group:PATCH Patching a resource,1853,217,0,3889,86.78,1.187%,31.17849,34.70,6.97,1139.7
+Thread Group:DELETE Request,1836,5800,0,67583,15607.26,23.366%,22.75459,20.70,5.02,931.7
+TOTAL,10030,4993,0,67583,11773.47,38.714%,104.10828,766.05,21.76,7534.8
