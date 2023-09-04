@@ -1,0 +1,7 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+GET Listing all resources,3,72,0,149,54.49,0.000%,1.17279,32.61,0.15,28469.0
+POST Creating a resource,3,335,0,381,32.06,33.333%,1.07488,1.17,0.26,1118.0
+PUT Updating a resource,3,249,0,306,39.84,0.000%,1.07797,1.03,0.26,975.0
+PATCH Patching a resource,3,226,0,237,11.73,0.000%,1.07411,1.18,0.24,1126.7
+DELETE Request,3,378,0,508,91.92,33.333%,1.03591,0.93,0.23,919.7
+TOTAL,15,252,0,508,118.41,13.333%,3.95674,25.20,0.84,6521.7
