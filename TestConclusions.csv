@@ -1,0 +1,24 @@
+Conclusion:
+This test report provides insights into the behavior and performance of the tested API under different HTTP request methods (GET, POST, PUT, PATCH, DELETE). 
+The report includes statistics for each request type and an overall summary.
+
+Request Types Analysis:
+
+GET Listing all resources: This request type had an average response time of 72 milliseconds, with a minimum of 0 milliseconds and a maximum of 149 milliseconds. The error rate was 0%, and the throughput was 1.17279 requests per second.
+
+POST Creating a resource: This request type had an average response time of 335 milliseconds. 
+The error rate was 33.333%, indicating some failures during testing.
+
+PUT Updating a resource: This request type had an average response time of 249 milliseconds.
+ The error rate was 0%.
+
+PATCH Patching a resource: This request type had an average response time of 226 milliseconds.
+The error rate was 0%.
+
+DELETE Request: This request type had an average response time of 378 milliseconds.
+The error rate was 33.33%, indicating some failures during testing.
+
+
+Across all request with a total of 15 sample, the average response time was 252 milliseconds.
+The error rate for all samples was 13.33%, suggesting that there were some errors or failures during the test.
+In summary, this performance test report shows the response time, error rate, throughput, and other metrics for different HTTP request types, providing valuable insights into the API's performance and potential areas for improvement. The presence of errors during POST and DELETE requests suggests that these areas may require further investigation and optimization to enhance overall system reliability.
